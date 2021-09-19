@@ -62,13 +62,13 @@
   /* Left column */
   @media screen and (max-width: auto){
     .yusuf{
-      float: left;
+      float: none;
       width: auto;
     }
    }
   .leftcolumn {   
     float: left;
-    width: 75%;
+    width: 73%;
   }
   /* Right column */
   .rightcolumn {
