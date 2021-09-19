@@ -60,11 +60,16 @@
   
   /* Create two unequal columns that floats next to each other */
   /* Left column */
+  @media screen and (max-width: auto){
+    .yusuf{
+      float: left;
+      width: auto;
+    }
+   }
   .leftcolumn {   
     float: left;
     width: 75%;
   }
-  
   /* Right column */
   .rightcolumn {
     float: left;
@@ -83,7 +88,7 @@
   /* Add a card effect for articles */
   .card {
     background-color: white;
-    padding: 17px;
+    padding: 4px;
     margin-top: 20px;
   }
   .card1 {
@@ -170,3 +175,10 @@
   a.underline{
     text-decoration: none;
   }
+  .cards {
+    display: flex;
+    margin: 5px; padding: 10px; font-size: xx-large;
+    justify-content: center;
+    width: 14rem;
+  }
+    
