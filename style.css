@@ -10,6 +10,10 @@
   }
   h1{
     font-family: Impact;
+    background-color: rgb(230, 112, 112);
+    animation-name: yusuf;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
   }
   
   li {
@@ -68,7 +72,7 @@
    }
   .leftcolumn {   
     float: left;
-    width: 73%;
+    width: 70%;
   }
   /* Right column */
   .rightcolumn {
@@ -150,22 +154,20 @@
    justify-content: center;
    align-items: center;
   }
-  ul.button{
+  /* ul.button{
     border:2px solid black;
     /* height: 100%; */
-    width: 100%;
-    
+    /* width: 100%;
     list-style-type: none;
     background-color: chartreuse;
     box-shadow: rgb(71, 68, 68);
-    
-  }
+     */
+  /* } */ 
  .button{
     display: flex;
     margin: 5px; padding: 10px; font-size: xx-large;
     justify-content: center;
     width: 12rem;
-   
   }
  
 .button:hover{
@@ -180,5 +182,23 @@
     margin: 5px; padding: 10px; font-size: xx-large;
     justify-content: center;
     width: 14rem;
+  }
+  .yunus {
+    width: 5px;  
+    height: 1px; 
+    /* background: red; */
+    transition: width 3s, height 3s, transform 3s;
+   
+  }
+  .yunus:hover {
+    /* width: 200px;  
+    height: 165px; */
+    transform: rotateY(360deg);
+  }
+  @keyframes yusuf {
+    0% {background-color: red;}
+    25% {background-color: yellow;}
+    50% {background-color: blue;}
+    100% {background-color: pink;}
   }
     
